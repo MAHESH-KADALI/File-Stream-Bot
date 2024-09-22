@@ -70,14 +70,14 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<b>ꜱᴏᴍᴇᴛʜɪɴɢ  ᴡᴇɴᴛ  ᴡʀᴏɴɢ  <a href='https://telegram.me/CodeXSupport'>ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ꜰᴏʀ  ꜱᴜᴘᴘᴏʀᴛ</a></b>",
+                text="<b>ꜱᴏᴍᴇᴛʜɪɴɢ  ᴡᴇɴᴛ  ᴡʀᴏɴɢ  <a href='https://telegram.me/hexafreinds'>ᴄʟɪᴄᴋ  ʜᴇʀᴇ  ꜰᴏʀ  ꜱᴜᴘᴘᴏʀᴛ</a></b>",
                 
                 disable_web_page_preview=True)
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/7e9722f41258b8f81fa3d.jpg",
-        caption =f'{m.from_user.mention(style="md")},\n\nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ᴛᴏ  ʟɪɴᴋ  ɢᴇɴᴇʀᴀᴛᴏʀ  ʙᴏᴛ.\n\nᴊᴜꜱᴛ  ꜱᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ꜰɪʟᴇ  ᴀɴᴅ  ɢᴇᴛ  ᴀ  ᴅɪʀᴇᴄᴛ  ᴅᴏᴡɴʟᴏᴀᴅ  ʟɪɴᴋ  ᴀɴᴅ  ꜱᴛʀᴇᴀᴍᴀʙʟᴇ  ʟɪɴᴋ.',
+        photo ="https://graph.org/file/93962115d4691bf425515.jpg",
+        caption =f'{m.from_user.mention(style="md")},\n\nɪ  ᴀᴍ  ᴀɴ  ᴀᴅᴠᴀɴᴄᴇ  ꜰɪʟᴇ  ᴛᴏ  ʟɪɴᴋ  ɢᴇɴᴇʀᴀᴛᴏʀ  ʙᴏᴛ.\n\nMade By My Babe 😘 @maheshsirop\n\nᴊᴜꜱᴛ  ꜱᴇɴᴅ  ᴍᴇ  ᴀɴʏ  ꜰɪʟᴇ  ᴀɴᴅ  ɢᴇᴛ  ᴀ  ᴅɪʀᴇᴄᴛ  ᴅᴏᴡɴʟᴏᴀᴅ  ʟɪɴᴋ  ᴀɴᴅ  ꜱᴛʀᴇᴀᴍᴀʙʟᴇ  ʟɪɴᴋ.',
         reply_markup=buttonz)
 
 
@@ -104,7 +104,7 @@ async def help_handler(bot, message):
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
                 photo="https://telegra.ph/file/345d71c4a18e9ec39888b.jpg",
-                caption="<b>⚠️  ᴘʟᴇᴀꜱᴇ  ꜰᴏʟʟᴏᴡ  ᴛʜɪꜱ  ʀᴜʟᴇ  ⚠️\n\n ɪɴ  ᴏʀᴅᴇʀ  ᴛᴏ  ᴜꜱᴇ  ᴍᴇ.\n\nʏᴏᴜ  ʜᴀᴠᴇ  ᴛᴏ  ᴊᴏɪɴ  ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴄʜᴀɴɴᴇʟ  ꜰɪʀsᴛ.</b>",
+                caption="<b>ʏᴏᴜ  ʜᴀᴠᴇ  ᴛᴏ  ᴊᴏɪɴ  ᴏᴜʀ  ᴏꜰꜰɪᴄɪᴀʟ  ᴄʜᴀɴɴᴇʟ  ꜰɪʀsᴛ.</b>",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
@@ -118,7 +118,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ ᴄᴏɴᴛᴀᴄᴛ [ᴏᴡɴᴇʀ](https://telegram.me/CodeXBro).",
+                text="ꜱᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ ᴄᴏɴᴛᴀᴄᴛ [ᴏᴡɴᴇʀ](https://telegram.me/maheshsirop).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -126,19 +126,18 @@ async def help_handler(bot, message):
 
 <b>╭━━━━〔ꜰɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ〕</b>
 ┃
-┣⪼<b>ɴᴀᴍᴇ : <a href='https://telegram.me/RahulReviews'>ꜰɪʟᴇ sᴛʀᴇᴀᴍ ʙᴏᴛ</a></b>
+┣⪼<b>ɴᴀᴍᴇ : <a href='https://telegram.me/maheshfiletolinkbot'>ꜰɪʟᴇ sᴛʀᴇᴀᴍ ʙᴏᴛ</a></b>
 ┣⪼<b>ꜱᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
 ┣⪼<b>ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ</b>
-┣⪼<b>ᴜᴘᴅᴀᴛᴇꜱ : <a href='https://telegram.me/RahulReviewsYT'>ʙᴏᴛꜱ ᴜᴘᴅᴀᴛᴇꜱ</a></b>
-┣⪼<b>ꜱᴜᴘᴘᴏʀᴛ : <a href='https://telegram.me/CodeXSupport'>ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱᴜᴘᴘᴏʀᴛ</a></b>
+┣⪼<b>ꜱᴜᴘᴘᴏʀᴛ : <a href='https://telegram.me/hexafreinds'>ᴅᴇᴠᴇʟᴏᴘᴇʀ ꜱᴜᴘᴘᴏʀᴛ</a></b>
 ┃
 <b>╰━━━━〔ᴘʟᴇᴀꜱᴇ sᴜᴘᴘᴏʀᴛ〕</b>""",
         
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("👨‍💻  ᴏᴡɴᴇʀ", url="https://youtube.com/@RahulReviews")],
-                [InlineKeyboardButton("💥  ꜱᴏᴜʀᴄᴇ  ᴄᴏᴅᴇ", url="https://github.com/CodeXBots/File-Stream-Bot")]
+                [InlineKeyboardButton("👨‍💻  ᴏᴡɴᴇʀ", url="https://www.instagram.com/mahesh_namikaze")],
+                [InlineKeyboardButton("My Babe 😘", url="https://t.me/maheshsirop")]
             ]
         )
     )
